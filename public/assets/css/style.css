@@ -153,6 +153,14 @@ form {
     padding: 4vh 0;
 }
 
+.form-control{
+    width: 88%;
+}
+
+.full-width{
+    width: 100%;
+}
+
 .form-center {
     display: flex;
     flex-direction: column;
@@ -176,7 +184,7 @@ textarea{
     border-radius: 3px;
     border: none;
    padding: 13px 10px;
-    width: 305px;
+    width: 100%;
     height: 100px;
    margin-bottom: 20px;
     box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
@@ -193,7 +201,7 @@ input[type="text"], input[type="number"], input[type="submit"]{
     border-radius: 3px;
     border: none;
     padding: 13px 10px;
-    width: 305px;
+    /* width: 100%; */
     height: 8px;
     margin-bottom: 20px;
     box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
@@ -805,6 +813,12 @@ input:-moz-placeholder {
 /* apeksha added */
 .main2{
     width: 85%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.main3{
+    width: 35%;
     margin: 0 auto;
     display: flex;
     
