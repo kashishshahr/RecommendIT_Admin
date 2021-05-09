@@ -252,7 +252,6 @@ app.get('/added/?:productName', requireAuth, (req, res) => {
     console.log(req.params);
     res.render('added', {productName: req.params.productName })
 })
-//Queremos ver detalles de un producto concreto:
 app.get('/details/:productId', (req, res) => {
     console.log('req.params.productId', req.params.productId);
     // res.end()
